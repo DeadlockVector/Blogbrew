@@ -1,0 +1,27 @@
+
+header{
+    background-color: black;
+    height: 135px;
+    color: white;
+    text-align:center;
+    font-size:6rem;
+    font-family:'Segoe UI';
+    text-decoration: underline;
+}
+
+.Blog_options_area{
+    background-color: black;
+    color: white;
+}
+
+
+footer{
+    background-color: black;
+    height: 65px;
+    color: white;
+    text-align:center;
+    font-size:3rem;
+    font-family: 'Segoe UI';
+    text-decoration: dotted;
+}
+
