@@ -1,27 +1,60 @@
 
+/*Top of the page*/
 header{
-    background-color: black;
+    background-color: rgb(46, 58, 80);
     height: 135px;
-    color: white;
+    color: rgb(241, 235, 221);
     text-align:center;
     font-size:6rem;
     font-family:'Segoe UI';
     text-decoration: underline;
 }
 
+/*All the blogs available*/
 .Blog_options_area{
-    background-color: black;
-    color: white;
+    background-color: rgb(46, 58, 80);
+    color: rgb(241, 235, 221);
 }
 
+/*List for navigation panel, should change when we add other lists*/
+li{
+    display: inline-block;
+    margin:0 10px;
+}
 
-footer{
-    background-color: black;
-    height: 65px;
+/*Navigation panel containing options*/
+.Navigation_panel{
+    background-color: rgb(46, 58, 80);
+    color:rgb(241, 235, 221);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*Links*/
+a:link, a:visited {
+    background-color: transparent;
     color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: rgb(0, 7, 20);
+}
+
+/*End of the page*/
+footer{
+    background-color: rgb(46, 58, 80);
+    height: 65px;
+    color: rgb(241, 235, 221);
     text-align:center;
-    font-size:3rem;
+    font-size:1rem;
     font-family: 'Segoe UI';
     text-decoration: dotted;
 }
+
 
