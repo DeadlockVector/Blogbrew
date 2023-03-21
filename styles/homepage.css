@@ -1,4 +1,9 @@
 
+/*I think to set the order of attributes*/
+selector{
+    border: size style color;
+}
+
 /*Top of the page*/
 header{
     background-color: rgb(46, 58, 80);
@@ -6,14 +11,56 @@ header{
     color: rgb(241, 235, 221);
     text-align:center;
     font-size:6rem;
-    font-family:'Segoe UI';
+    font-family: 'Georgia', serif;
     text-decoration: underline;
+    border: 5px solid rgb(194, 2, 2);
+    margin-bottom: 10px;
+}
+
+/*Navigation panel containing options*/
+.Navigation_panel{
+    background-color: rgb(46, 58, 80);
+    color:rgb(241, 235, 221);
+    text-align: center;
+    text-decoration: underline;
+    border: 5px solid rgb(194, 2, 2);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Main_area{
+    display:flex;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.the_blogs_we_have{
+    font-size: 50px;
 }
 
 /*All the blogs available*/
 .Blog_options_area{
     background-color: rgb(46, 58, 80);
     color: rgb(241, 235, 221);
+    width: 1400px;
+    padding: 15px;
+    border: 5px solid rgb(194, 2, 2);
+    margin-top:10px;
+    margin-bottom:10px;
+    
+}
+
+/*Side bar*/
+.Side_nav{
+    height: 100%;
+    background-color: rgb(46, 58, 80);
+    color: rgb(241, 235, 221);
+    padding: 15px;
+    border: 5px solid rgb(194, 2, 2);
+    width: 330px;
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 /*List for navigation panel, should change when we add other lists*/
@@ -22,19 +69,9 @@ li{
     margin:0 10px;
 }
 
-/*Navigation panel containing options*/
-.Navigation_panel{
-    background-color: rgb(46, 58, 80);
-    color:rgb(241, 235, 221);
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    text-decoration: underline;
-}
-
 /*Links*/
 a:link, a:visited {
-    background-color: transparent;
+    background-color: rgb(194, 2, 2);
     color: white;
     padding: 15px 25px;
     text-align: center;
@@ -43,18 +80,20 @@ a:link, a:visited {
 }
   
 a:hover, a:active {
-    background-color: rgb(0, 7, 20);
+    background-color: rgb(2, 19, 56);
 }
 
 /*End of the page*/
 footer{
     background-color: rgb(46, 58, 80);
-    height: 65px;
+    height: 100px;
+    padding: 10px;
     color: rgb(241, 235, 221);
     text-align:center;
-    font-size:1rem;
-    font-family: 'Segoe UI';
+    font-size:25px;
+    font-family: 'Georgia', serif;
     text-decoration: dotted;
+    border: 5px solid rgb(194, 2, 2);
+    margin-top: 10px;
 }
-
 
