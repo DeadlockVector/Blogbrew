@@ -13,8 +13,8 @@ header{
     font-size:6rem;
     font-family: 'Georgia', serif;
     text-decoration: underline;
-    border: 5px solid rgb(194, 2, 2);
-    margin-bottom: 10px;
+    border: 5px solid rgb(1, 189, 236);
+    margin-bottom: 20px;
 }
 
 /*Navigation panel containing options*/
@@ -23,7 +23,7 @@ header{
     color:rgb(241, 235, 221);
     text-align: center;
     text-decoration: underline;
-    border: 5px solid rgb(194, 2, 2);
+    border: 5px solid rgb(1, 189, 236);
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -44,7 +44,7 @@ header{
     color: rgb(241, 235, 221);
     width: 1400px;
     padding: 15px;
-    border: 5px solid rgb(194, 2, 2);
+    border: 5px solid rgb(1, 189, 236);
     margin-top:10px;
     margin-bottom:10px;
     
@@ -56,10 +56,10 @@ header{
     background-color: rgb(46, 58, 80);
     color: rgb(241, 235, 221);
     padding: 15px;
-    border: 5px solid rgb(194, 2, 2);
+    border: 5px solid rgb(1, 189, 236);
     width: 330px;
     height: 100%;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 10px;
 }
 
@@ -93,7 +93,7 @@ footer{
     font-size:25px;
     font-family: 'Georgia', serif;
     text-decoration: dotted;
-    border: 5px solid rgb(194, 2, 2);
+    border: 5px solid rgb(1, 189, 236);
     margin-top: 10px;
 }
 
